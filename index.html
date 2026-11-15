@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>サポート | 古物台帳</title>
+<meta name="description" content="古物台帳アプリのサポートページです。">
+<link rel="icon" href="icon.png">
+<style>
+:root{--bg:#f4f5f8;--card:#fff;--ink:#16213a;--sub:#5b6478;--brand:#1e4682;--line:#e2e5ec;--seal:#c8442e}
+@media (prefers-color-scheme:dark){:root{--bg:#0d1220;--card:#161d30;--ink:#eef1f7;--sub:#a3acc0;--brand:#7aaef4;--line:#27304a;--seal:#e8694f}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Hiragino Kaku Gothic ProN","Noto Sans JP",sans-serif;line-height:1.8;-webkit-text-size-adjust:100%}
+header{background:linear-gradient(135deg,#12284f,#2a5fa8);color:#fff;padding:28px 16px}
+.wrap{max-width:720px;margin:0 auto}
+.brand{display:flex;align-items:center;gap:12px;font-weight:700;font-size:18px;color:#fff;text-decoration:none}
+.brand img{width:44px;height:44px;border-radius:10px}
+h1{font-size:24px;margin:18px 0 0}
+main{padding:20px 16px 48px}
+section,.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px 20px;margin:14px 0}
+h2{font-size:17px;margin:0 0 6px}
+p{margin:0;color:var(--sub);font-size:15px}
+p+p{margin-top:10px}
+a{color:var(--brand)}
+nav{display:flex;flex-wrap:wrap;gap:8px 18px;margin-top:22px;font-size:14px}
+.note{font-size:13px;color:var(--sub);margin-top:20px}
+ul{margin:6px 0 0;padding-left:1.2em;color:var(--sub);font-size:15px}
+footer{max-width:720px;margin:0 auto;padding:0 16px 40px;color:var(--sub);font-size:13px}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+<a class="brand" href="index.html"><img src="icon.png" alt="">古物台帳</a>
+<h1>サポート</h1>
+</div></header>
+<main><div class="wrap">
+<div class="card"><h2>古物台帳について</h2><p>古物商のための電子古物台帳アプリです。買取の記録から、法定様式に沿ったPDFの出力、利益の管理までをiPhoneだけで行えます。</p></div>
+<h2 style="margin:26px 4px 0">よくある質問</h2>
+<section><h2>データはどこに保存されますか？</h2><p>すべてお使いのiPhoneの中に保存されます。外部のサーバーには送信されません。機種変更の前には、設定の「バックアップを書き出す」でファイルに保存してください。</p></section>
+<section><h2>機種変更のときはどうすればよいですか？</h2><p>古い端末で「設定 → バックアップを書き出す」を行い、ファイルをiCloud Driveなどに保存します。新しい端末で「設定 → バックアップから復元」を選び、そのファイルを指定してください。</p></section>
+<section><h2>Excelで付けていた台帳を取り込めますか？</h2><p>「設定 → 取り込み用テンプレートを保存」で見出しの入ったCSVを保存し、その形式に合わせたCSVを「Excel・CSVの台帳を取り込む」から読み込めます。</p></section>
+<section><h2>記録が必要な取引かどうかの表示は確実ですか？</h2><p>金額と品目から判定した目安です。法令の解釈や個別の取引についての判断は、所轄の警察署または専門家にご確認ください。</p></section>
+<section><h2>レシートや免許証の読み取りで、画像は送信されますか？</h2><p>いいえ。文字の読み取りは端末の中だけで行います。運転免許証の画像は保存しません。</p></section>
+<section><h2>サブスクリプションを解約するには？</h2><p>iPhoneの「設定 → 自分の名前 → サブスクリプション」から「古物台帳」を選び、解約してください。期間の終了まではProの機能を使えます。</p></section>
+<section><h2>購入したのにProにならないときは？</h2><p>「設定 → 購入を復元」をお試しください。購入時と同じApple Accountでサインインしている必要があります。</p></section>
+<div class="card" id="contact"><h2>お問い合わせ</h2><p>解決しない場合は、下記までご連絡ください。お使いのiPhoneの機種、iOSのバージョン、アプリのバージョン（設定の一番下に表示）を添えていただくと助かります。</p><p><strong>メール：<!-- TODO: サポート用メールアドレスを記入 -->（準備中）</strong></p></div>
+<nav><a href="index.html">サポート</a><a href="terms.html">利用規約</a><a href="privacy.html">プライバシーポリシー</a></nav>
+</div></main>
+<footer>© 2026 Shokei Takaki</footer>
+</body>
+</html>
